@@ -1,0 +1,332 @@
+/* Your custom styles */
+html {
+  font-size: 16px;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    overflow-x:hidden;
+    font-size: 16px;
+}
+body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+    background-color: #53355a;
+    outline: 1px solid #eee;
+
+}
+/* style for nav section */
+
+.navbar{
+margin-bottom: 0;
+}
+.container-fluid{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.navbar-default{
+    background-color:white;
+}
+.navbar-default .navbar-nav>li>a{
+    font-family: "Cairo",sans-serif;
+    color: #770042;
+    font-size: 16px;
+}
+
+ .navbar-default .navbar-nav>li>a:hover{
+   color:#2e2e2e;
+   background: #ff0e9f0e;
+}
+ .navbar-nav{
+    margin-top: 5px;
+}
+.navbar-brand{
+    height: 60px;
+}
+.qrc-logo{
+  width: 90px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle{
+    border-color: #eee;
+    background: #cb0071;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background: rgba(203, 0, 115, 0.8);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.btn-default {
+    color: #7c0033;
+    background-color:white;
+    border-color: #212121;
+    padding: 8px 30px;
+    font-size: 22px;
+    border-radius: none;
+    transition: all 0.2s linear;
+}
+.btn-default:hover, .btn-default.focus, .btn-default:focus, .btn-default:active:visited ,.btn-default:hover:focus, .btn-default:active:focus{
+    background: #0099cc;
+    box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);
+    color: white;
+    outline: 0;
+}
+
+/* style for banner section*/
+
+/*
+.qrc-banner{
+   width: 100%;
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   height: 480px;
+   margin-bottom: 150px;
+  /* fallback for old browsers */
+   /* background:  url(../images/overlay.png), -webkit-linear-gradient(90deg, #893174 50%, #3399cc 160%);
+   background: url(../images/overlay.png), -moz-linear-gradient(90deg, #893174 50%, #3399cc 160%);
+   background: url(../images/overlay.png), -o-linear-gradient(90deg, #893174 50%, #3399cc 160%);
+   background: url(../images/overlay.png), linear-gradient(90deg, #893174 50%, #3399cc 160%);
+}
+.qrc-brif{
+   font-size: 33px;
+   color: white;
+   text-align: center;
+   font-family: "Cairo",sans-serif;
+}
+.qrc-brif span{
+    letter-spacing: 3px;
+}
+.qrc-brif button{
+   font-size: 22px;
+}
+.qrc-bimag{
+    position: absolute;
+    bottom: -65px;
+    left: 37%;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+*/
+
+*/
+   
+}
+.qrc-header{
+    position: relative;
+    display: block;
+}
+.qrc-header img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: auto;
+}
+.qrc-header .brif{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: -20%;
+    top: 33%;
+    z-index: 10;
+    text-align: center;
+    color: white;
+}
+.qrc-header .brif h1{
+    font-size: 4rem;
+    margin-bottom: 15px;
+    font-family: "Cairo",sans-serif;
+}
+.qrc-header .brif p{
+    font-size: 1.2rem;
+    color: #fff5c2;
+}
+
+/* style for about section*/
+
+.qrc-about{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 8%;
+}
+.title{
+    position: relative;
+    font-family: "Cairo",sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #770042;
+    margin-bottom: 50px;
+}
+.title::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/mosqe.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.qrc-about .title{
+    margin-bottom: 20px;
+}
+.qrc-about p{
+  font-size: 18px;
+  color: #212121;
+}
+
+/* style for services section*/
+
+.qrc-services{
+    margin-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+}
+.qrc-services .icon{
+    background: #a83aaa;
+    border-radius: 50%;
+    margin-bottom: 25px;  
+    margin-right: 40px;
+    transition: all 0.2s linear;
+}
+.qrc-services .icon:hover{
+    cursor: pointer;
+    box-shadow: 0 22px 45px 0 rgba(0,0,0,.2);
+}
+.qrc-services  .container{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.qrc-services h2{
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #631434;
+}
+
+/* style for news section*/
+
+.qrc-news{
+    margin-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+}
+.qrc-news .thumbnail{
+    position: relative;
+}
+.qrc-news img {
+    border-bottom: 1px solid #eee;
+}
+
+/* style for contact section */
+
+.qrc-contact .jumbotron{
+  margin-bottom: 0;
+  padding-top: 40px;
+  text-align: center;
+  background:url(../images/overlay.png),linear-gradient(135deg, #65799b 0%,#5e2563 100%);
+}
+.qrc-contact h1{
+    font-family: "Cairo",sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 60px;
+
+}
+.qrc-contact .all{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.qrc-contact .icon-contact{
+    align-self: center;
+}
+.qrc-contact .contact{
+    margin-left: 100px;
+}
+.qrc-contact .contact div{
+  margin-bottom: 1.3vw;
+}
+.qrc-contact .contact p{
+    margin: 0;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.qrc-contact .contact div p:last-child{
+    position: relative;
+    left: 35px;
+}
+
+.qrc-contact .panel-footer{
+    padding: 20px;
+    background-color: #3c1944;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (max-width: 540px) {  
+ .qrc-header .brif h1 {font-size:1.5rem;} /*1rem = 16px*/
+ .qrc-header .brif p  {font-size:0.5rem;} /*1rem = 16px*/
+ .qrc-header .brif{
+            left: -100px;
+             top: 20%;
+    }
+    
+}
+@media (min-width: 540px) {  
+ .qrc-header .brif h1 {font-size:2rem;} /*1rem = 16px*/
+    .qrc-header .brif p  {font-size:0.7rem;} /*1rem = 16px*/
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  h1 {font-size:2.5rem;} /*1rem = 16px*/
+    .qrc-header .brif p  {font-size:0.8rem;} /*1rem = 16px*/
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .qrc-header .brif h1 {font-size:3rem;} /*1rem = 16px*/
+  .qrc-header .brif p  {font-size:1rem;} /*1rem = 16px*/
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .qrc-header .brif h1  {font-size:4rem;} /*1rem = 16px*/
+     .qrc-header .brif p  {font-size:1.2rem;} /*1rem = 16px*/
+}
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+
+/* Set width to make card deck cards 100% width */
+@media (min-width: 1400px) {  
+  .qrc-header .brif h1  {font-size:5rem;} /*1rem = 16px*/ 
+     .qrc-header .brif p  {font-size:1.5rem;} /*1rem = 16px*/
+}
+
+

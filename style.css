@@ -9,7 +9,7 @@ body{
     font-size: 16px;
 }
 body::-webkit-scrollbar {
-    width: 1em;
+    width: 0.9em;
 }
  
 body::-webkit-scrollbar-track {
